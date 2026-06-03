@@ -1,16 +1,40 @@
-## Hi there 👋
+# 👋 Hi, I'm OPszyszo
 
-<!--
-**OPszyszo/opszyszo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
 
-Here are some ideas to get you started:
+I have been a programmer since **2022**, constantly learning and building projects that help me expand my skills and knowledge.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My journey started with creating **Minecraft mods** and managing my own **Minecraft server**, where I gained experience in development, server management, and problem-solving. Over time, I moved beyond game-related projects and began developing independent applications and tools.
+
+## 🎮 Projects
+
+### Zooventures
+
+One of my biggest projects is **Zooventures**, a browser-based game that I developed from the ground up. Working on this project allowed me to improve my skills in web development, game design, and backend systems.
+
+### Minecraft Development
+
+* Custom Minecraft mods
+* Server development and management
+* Gameplay systems and custom features
+
+### Artificial Intelligence
+
+I have also experimented with and developed my own **AI project**, exploring modern technologies and learning more about machine learning concepts and intelligent systems.
+
+## 💡 Interests
+
+* Software Development
+* Artificial Intelligence
+* Game Development
+* Web Applications
+* Open Source Projects
+* Learning New Technologies
+
+## 🎯 Goals
+
+My goal is to continue building innovative projects, improving my programming skills, and exploring new areas of technology. Every project is an opportunity to learn something new and create something meaningful.
+
+---
+
+*"Code, learn, improve, repeat."*
