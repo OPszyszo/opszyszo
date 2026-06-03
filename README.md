@@ -6,6 +6,8 @@ I have been a programmer since **2022**, constantly learning and building projec
 
 My journey started with creating **Minecraft mods** and managing my own **Minecraft server**, where I gained experience in development, server management, and problem-solving. Over time, I moved beyond game-related projects and began developing independent applications and tools.
 
+* 🌱 I'm currently working on **Bubble 3.6**
+
 ## 🎮 Projects
 
 ### Zooventures
@@ -20,16 +22,25 @@ One of my biggest projects is **Zooventures**, a browser-based game that I devel
 
 ### Artificial Intelligence
 
-I have also experimented with and developed my own **AI project**, exploring modern technologies and learning more about machine learning concepts and intelligent systems.
+I have also developed my own **AI project**, exploring modern technologies and gaining experience with intelligent systems and machine learning concepts.
 
 ## 💡 Interests
 
 * Software Development
 * Artificial Intelligence
 * Game Development
-* Web Applications
+* Web Development
 * Open Source Projects
-* Learning New Technologies
+* New Technologies
+
+## 🛠️ Skills
+
+* Java
+* JavaScript
+* Python
+* Minecraft Modding
+* Backend Development
+* AI Development
 
 ## 🎯 Goals
 
