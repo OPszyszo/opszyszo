@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>OPszyszo | Wszystko co o mnie</title>
-  <meta name="description" content="Officialna strona z informacjami o mnie, socialami i moimi projektami.">
+  <title>OPszyszo | O mnie · Projekty</title>
+  <meta name="description" content="Oficjalna strona OPszyszo – programista, twórca serwera DragonMC, Bubble AI, Zooventures i Chinchilla Clicker.">
   <!-- Google Fonts + Font Awesome 6 -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -201,13 +201,30 @@
     .project-img:hover {
       transform: scale(1.01);
     }
+    .project-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
     .project-title {
       font-size: 1.7rem;
       font-weight: 700;
-      margin-bottom: 10px;
       display: flex;
       align-items: center;
       gap: 10px;
+    }
+    .badge-new {
+      background: #f97316;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 40px;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      margin-left: 12px;
     }
     .project-desc {
       color: #ccedf2;
@@ -254,6 +271,19 @@
       gap: 14px;
       align-items: center;
       margin-top: 8px;
+    }
+    /* Widget itch.io – responsywny */
+    .itch-widget-wrapper {
+      margin: 16px 0 8px;
+      width: 100%;
+      overflow-x: auto;
+      text-align: center;
+    }
+    .itch-widget-wrapper iframe {
+      max-width: 100%;
+      height: auto;
+      min-height: 165px;
+      border-radius: 16px;
     }
 
     /* FAQ */
@@ -380,13 +410,15 @@
     </div>
   </div>
 
-  <!-- PROJEKTY (z Imgur zdjęciami) -->
+  <!-- PROJEKTY (z Imgur zdjęciami + NOWY Chinchilla Clicker) -->
   <div id="projects" class="tab-pane">
     <div class="projects-grid">
-      <!-- DragonMC -->
+      <!-- 1. DragonMC -->
       <div class="project-card">
         <img class="project-img" src="https://i.imgur.com/963oR1p.png" alt="DragonMC serwer" onerror="this.src='https://i.imgur.com/placeholder.png'; this.onerror=null;">
-        <div class="project-title"><i class="fas fa-dragon"></i> DragonMC</div>
+        <div class="project-header">
+          <div class="project-title"><i class="fas fa-dragon"></i> DragonMC</div>
+        </div>
         <div class="project-desc">Mój własny serwer Minecraft! Rozbudowana sieć z unikalnymi trybami gry i stabilną infrastrukturą. Dołącz do społeczności graczy!</div>
         <div class="server-address">
           <i class="fas fa-copy"></i> <span id="serverAddress">dragonikmc.play.hosting</span>
@@ -396,23 +428,46 @@
         </div>
       </div>
 
-      <!-- Bubble AI -->
+      <!-- 2. Bubble AI -->
       <div class="project-card">
         <img class="project-img" src="https://i.imgur.com/LPbXOiR.png" alt="Bubble AI" onerror="this.src='https://i.imgur.com/placeholder.png'; this.onerror=null;">
-        <div class="project-title"><i class="fas fa-brain"></i> Bubble AI</div>
+        <div class="project-header">
+          <div class="project-title"><i class="fas fa-brain"></i> Bubble AI</div>
+        </div>
         <div class="project-desc">Moje pierwsze własne AI — inteligentny asystent wykorzystujący nowoczesne modele. Eksperyment w dziedzinie uczenia maszynowego.</div>
         <div class="action-group">
           <a href="https://bubble-ai-ivory.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fas fa-external-link-alt"></i> Otwórz Bubble AI</a>
         </div>
       </div>
 
-      <!-- Zooventures -->
+      <!-- 3. Zooventures -->
       <div class="project-card">
         <img class="project-img" src="https://i.imgur.com/Im7UJ0a.png" alt="Zooventures gra karciana" onerror="this.src='https://i.imgur.com/placeholder.png'; this.onerror=null;">
-        <div class="project-title"><i class="fas fa-gamepad"></i> Zooventures</div>
+        <div class="project-header">
+          <div class="project-title"><i class="fas fa-gamepad"></i> Zooventures</div>
+        </div>
         <div class="project-desc">Moja karciana gra przeglądarkowa! Taktyczna rozgrywka, unikalne mechaniki i ciągły rozwój. Zagraj teraz!</div>
         <div class="action-group">
           <a href="https://opszyszo.github.io/Zooventures" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fas fa-play"></i> Zagraj w Zooventures</a>
+        </div>
+      </div>
+
+      <!-- 4. NOWOŚĆ: Chinchilla Clicker (z naklejką NEW i widgetem itch.io) -->
+      <div class="project-card">
+        <img class="project-img" src="https://i.imgur.com/UkdGTRC.png" alt="Chinchilla Clicker" onerror="this.src='https://i.imgur.com/placeholder.png'; this.onerror=null;">
+        <div class="project-header">
+          <div class="project-title">
+            <i class="fas fa-mouse-pointer"></i> Chinchilla Clicker
+            <span class="badge-new">NEW</span>
+          </div>
+        </div>
+        <div class="project-desc">Klikaj, ulepszaj i odkrywaj urocze świnki morskie w mojej najnowszej grze idle/clicker! Wersja Alpha 1.0 dostępna na Itch.io.</div>
+        <!-- Widget z itch.io (dokładnie taki jak podałeś) -->
+        <div class="itch-widget-wrapper">
+          <iframe frameborder="0" src="https://itch.io/embed/4643044?border_width=0&amp;bg_color=ffffff&amp;link_color=35ae34&amp;border_color=ffffff" width="550" height="165" style="max-width:100%; border-radius: 16px;"><a href="https://twin-pixels-studio.itch.io/chinchilla-clicker">Chinchilla Clicker (Alpha 1.0) by Twin Pixels</a></iframe>
+        </div>
+        <div class="action-group">
+          <a href="https://twin-pixels-studio.itch.io/chinchilla-clicker" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fab fa-itch-io"></i> Zobacz na Itch.io</a>
         </div>
       </div>
     </div>
@@ -462,8 +517,8 @@
       a: "Wystarczy skopiować adres 'dragonikmc.play.hosting' (przycisk kopiowania w zakładce projekty) i dodać go do listy serwerów Minecraft Java Edition. Serwer jest stale rozwijany!"
     },
     {
-      q: "Czy Bubble AI jest w pełni moim autorskim projektem?",
-      a: "Tak, Bubble AI to moje pierwsze autorskie AI, które zbudowałem od podstaw. Korzysta z zewnętrznych API, ale architekturę i logikę zaprojektowałem samodzielnie."
+      q: "Czym jest Chinchilla Clicker?",
+      a: "To moja najnowsza gra typu clicker / idle, w której zbierasz punkty, ulepszasz i hodujesz urocze świnki morskie. Dostępna w wersji alpha na Itch.io!"
     },
     {
       q: "Gdzie mogę śledzić Twoje nowe projekty?",
@@ -576,7 +631,7 @@
     });
   });
 
-  // Obsługa błędów imgur -> pokaż zastępczy styl (opcjonalnie, ale imgur może działać)
+  // Obsługa błędów imgur -> pokaż zastępczy styl
   const allImgs = document.querySelectorAll('.project-img');
   allImgs.forEach(img => {
     img.addEventListener('error', function() {
